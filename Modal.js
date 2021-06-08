@@ -55,7 +55,6 @@ export function useModal(modalId = "simplemodal") {
 
   const openModal = () => {
     if (mounted) {
-      console.log("mounted");
       document.querySelector("body").classList.add("overflow-hidden");
       ref.current.setAttribute("aria-hidden", "false");
       ref.current.classList.add("isopen");
