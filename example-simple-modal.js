@@ -6,7 +6,7 @@ export default function ExamplePage() {
   return (
     <div>
       <a onClick={() => openModal()}>Open Simple Modal</a>
-      <ModalSimple closeModal={closeModal} />
+      <ModalSimple closeModal={closeModal} title="Modal title here">Modal text here</Modal>
     </div>
   );
 }
